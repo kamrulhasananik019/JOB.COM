@@ -1,0 +1,39 @@
+.pr-color{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+.cp-font{
+    font-family: 'Manrope', sans-serif;
+}
+.custom-gap a{
+    margin-left: 30px;
+}
+.active{
+    color: #7E90FE;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.custom-navbar-font{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #757575;
+}
+.web-name-font {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 32px;
+}
+.custom-btn{
+    font-family: 'Manrope', sans-serif;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    font-style: normal;
+    font-weight: 600px;
+    color: white;
+}
