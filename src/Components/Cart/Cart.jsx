@@ -1,5 +1,5 @@
 import React from 'react';
-import { } from '@heroicons/react/24/solid';
+import {MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid';
 import '../Header/Header'
 
 const Cart = (props) => {
@@ -18,9 +18,9 @@ const Cart = (props) => {
                         <p>{jobType}</p>
                     </div>
                 </div>
-                <div className='flex gap-8 my-2 text-slate-400 font-bold'>
-                <p>{address}</p>
-                <p>{Salary}</p>
+                <div className='flex  my-2 text-slate-400 font-bold'>
+                <MapPinIcon className="h-6 w-6"/><p className='pr-5'> {address}</p>
+                <CurrencyDollarIcon className="h-6 w-6"/><p>{Salary}</p>
                 </div>
                 <button className='custom-btn p-4'> View Details</button>
             </div>

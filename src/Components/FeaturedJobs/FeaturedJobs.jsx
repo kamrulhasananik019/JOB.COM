@@ -12,7 +12,7 @@ const FeaturedJobs = () => {
       .then(data => setCart(data));
   }, []);
 
-  
+
 
 const handleshowAll=()=>{
 setShowAll(true)
@@ -28,7 +28,7 @@ setShowAll(true)
         </p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
-        {cart.slice(0,showAll ? 8 : 4).map(ct=><Cart ct={ct} key={ct.id}></Cart> )}
+        {cart.slice(0,showAll ? cart.length : 4).map(ct=><Cart ct={ct} key={ct.id}></Cart> )}
       
       </div>
      <div className='text-center py-5'>
