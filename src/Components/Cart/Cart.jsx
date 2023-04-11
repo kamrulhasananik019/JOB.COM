@@ -3,6 +3,8 @@ import {MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid';
 import '../Header/Header'
 
 const Cart = (props) => {
+
+  const handelview=props.handelview;
     const { id, img, jobTitle, companyName, address, Salary, jobType, jobSchedule } = props.ct;
     return (
         <div className='border border-indigo-600 p-5'>
@@ -22,7 +24,7 @@ const Cart = (props) => {
                 <MapPinIcon className="h-6 w-6"/><p className='pr-5'> {address}</p>
                 <CurrencyDollarIcon className="h-6 w-6"/><p>{Salary}</p>
                 </div>
-                <button className='custom-btn p-4'> View Details</button>
+                <button onClick={() => handelview(props.view)} className='custom-btn p-4'> View Details</button>
             </div>
         </div>
     );
