@@ -20,9 +20,7 @@ const CartView = () => {
 
     const details = job.find((singleData) => singleData.id === parseInt(id));
 
-    const { jobResponsibility,JobDescription,email,phone,
-        address,jobTitle,Salary,
-        Experience,EducationalRequirements} = details;
+
     return (
         <div>
             {details && (
