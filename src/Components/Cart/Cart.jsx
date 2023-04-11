@@ -8,7 +8,6 @@ const Cart = (props) => {
     const { id, img, jobTitle, companyName, address, Salary, jobType, jobSchedule } = props.ct;
 
 
-
     return (
         <div className='border border-indigo-600 p-5'>
             <img src={img} className='w-72 ' alt="" />
