@@ -1,22 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-import '../Header/Header'
+import '../Header/Header';
 import { useLoaderData } from 'react-router-dom';
 
 const FeaturedJobs = () => {
- const cart=useLoaderData()
-  const [showAll,setShowAll]=useState(false);
-  const[view,setView]=useState();
-const handelview=(view)=>{
-  const newView=[...cart,view]
-setView(newView)
-console.log(newView);
-}
+  const cart = useLoaderData();
+  const [showAll, setShowAll] = useState(false);
 
+ 
 
-const handleshowAll=()=>{
-setShowAll(true)
-}
+  const handleShowAll = () => {
+    setShowAll(true);
+  };
 
   return (
     <section>
@@ -28,14 +23,20 @@ setShowAll(true)
         </p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
-        {cart.slice(0,showAll ? cart.length : 4).map(ct=>
-        <Cart ct={ct} view={view} handelview={handelview} key={ct.id}></Cart> )}
-      
+        {cart.slice(0, showAll ? cart.length : 4).map((ct) => (
+          <Cart ct={ct}  key={ct.id}></Cart>
+        ))}
       </div>
-     <div className='text-center py-5'>
-     {!showAll && (<button  onClick={handleshowAll}
-     className='custom-btn p-4 text-2xl'>See All Jobs </button>)}
-     </div>
+      <div className='text-center py-5'>
+        {!showAll && (
+          <button
+            onClick={handleShowAll}
+            className='custom-btn p-4 text-2xl'
+          >
+            See All Jobs{' '}
+          </button>
+        )}
+      </div>
     </section>
   );
 };

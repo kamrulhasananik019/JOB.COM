@@ -5,6 +5,8 @@ import Main from './Components/Main/Main.jsx';
 import Home from './Components/Home/Home.jsx';
 import Body from './Components/Head/Head';
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+import CartView from './Components/Cart/CartView';
+
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,10 @@ const router = createBrowserRouter([
         element: <Home />,
         loader: ()=>fetch('fake.json')
       },
-      
+   {
+    path:'CartView/:id',
+    element: <CartView></CartView>
+   }
     ]
   }
 ]);
