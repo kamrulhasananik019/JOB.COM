@@ -4,8 +4,9 @@ import { Button, Navbar } from "flowbite-react";
 import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
-     <div className="sticky top-0">
-           <Navbar className=" bg-violet-100" fluid={true} rounded={true}>
+     <section className="bg-violet-200 sticky top-0" >
+          <div className="mx-2 md:container md:mx-auto cp-font">
+          <Navbar className=" bg-violet-300" fluid={true} rounded={true}>
             <Navbar.Brand href="https://flowbite.com/%22%3E">
                 <span className="web-name-font self-center whitespace-nowrap text-xl font-semibold dark:text-white">
              JOB.COM
@@ -24,21 +25,21 @@ const Header = () => {
             >
             Home
             </NavLink>
-                <NavLink to="/statistics"
+                <NavLink to="/Statistics"
                 className={({ isActive }) =>
                 isActive ? "active" : "custom-navbar-font"
             }
                 >Statistics
             </NavLink>
                 <NavLink 
-                to="/applied-jobs"
+                to="/AppliedJobs"
                 className={({ isActive }) =>
                 isActive ? "active" : "custom-navbar-font"
             }
                 >Applied Jobs
             </NavLink>
                 <NavLink 
-                to="/blog"
+                to="/Blog"
                 className={({ isActive }) =>
                 isActive ? "active" : "custom-navbar-font"
             }
@@ -46,7 +47,8 @@ const Header = () => {
             </NavLink>
             </Navbar.Collapse>
         </Navbar>
-     </div>
+          </div>
+     </section>
     );
 };
 

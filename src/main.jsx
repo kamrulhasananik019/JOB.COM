@@ -6,6 +6,10 @@ import Home from './Components/Home/Home.jsx';
 import Body from './Components/Head/Head';
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 import CartView from './Components/Cart/CartView';
+import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
+import Blog from './Components/Blog/Blog';
+import Statistics from './Components/Statistics/Statistics';
+import Head2 from './Components/Head2/Head2';
 
 
 const router = createBrowserRouter([
@@ -16,12 +20,25 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-        loader: ()=>fetch('fake.json')
+        loader: () => fetch('/fake.json')
       },
-   {
-    path:'CartView/:id',
-    element: <CartView></CartView>
-   }
+  
+      {
+        path: 'CartView/:id',
+        element: <CartView></CartView>
+      }, {
+        path: '/AppliedJobs',
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => fetch('/fake.json')
+      },
+      {
+      path:'/Blog',
+      element:<Blog></Blog>
+      },
+      {
+        path:'/Statistics',
+        element:<Statistics></Statistics>
+      }
     ]
   }
 ]);

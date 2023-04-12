@@ -27,7 +27,7 @@
     "phone": "(555) 555-1212",
     "email": "careers@xyzcorp.com",
     "JobDescription": "We are seeking a talented marketing manager to help us grow our brand. The successful candidate will be responsible for developing and executing marketing campaigns, analyzing market trends, and collaborating with internal teams to ensure consistency of messaging.",
-    "jobResponsibility": " Analyze and troubleshoot technical issues related to software development, infrastructure, or networking, and provide timely and effective solutions.",
+    "JobResponsibility": " Analyze and troubleshoot technical issues related to software development, infrastructure, or networking, and provide timely and effective solutions.",
     "EducationalRequirements": "Bachelor's degree in Marketing, Business Administration, or related field",
     "Experience": "3+ years of experience in marketing"
   },
@@ -42,8 +42,8 @@
     "address": "789 Elm St, Anytown, USA",
     "phone": "(555) 123-4567",
     "email": "careers@abcinc.com",
-    "Job-Description": "We are looking for a creative graphic designer to join our team. The successful candidate will be responsible for designing and creating graphics, collaborating with team members, and contributing to the overall branding and visual identity of our company.",
-    "jobResponsibility": " Review and provide feedback on code written by other team members to ensure code quality, consistency, and adherence to best practices.",
+    "JobDescription": "We are looking for a creative graphic designer to join our team. The successful candidate will be responsible for designing and creating graphics, collaborating with team members, and contributing to the overall branding and visual identity of our company.",
+    "JobResponsibility": " Review and provide feedback on code written by other team members to ensure code quality, consistency, and adherence to best practices.",
     "EducationalRequirements": "Bachelor's degree in Graphic Design or related field",
     "Experience": "2+ years of experience in graphic design"
   },
@@ -59,7 +59,7 @@
     "phone": "(555) 789-1234",
     "email": "jobs@123co.com",
     "JobDescription": "We are seeking a sales representative to join our team. The successful candidate will be responsible for generating leads, meeting sales targets, and building strong relationships with clients.",
-    "jobResponsibility": " Collaborate effectively with remote team members, using tools such as video conferencing, instant messaging, and project management software.",
+    "JobResponsibility": " Collaborate effectively with remote team members, using tools such as video conferencing, instant messaging, and project management software.",
     "EducationalRequirements": "High school diploma or equivalent",
     "Experience": "1+ years of experience in sales"
   },
@@ -74,8 +74,8 @@
     "address": "321 Maple St, Anytown, USA",
     "phone": "(555) 555-5555",
     "email": "hr@globalcorp.com",
-    "Job-Description": "We are seeking an HR Coordinator to provide support to our HR department. The successful candidate will be responsible for recruiting, onboarding, and maintaining employee records.",
-    "jobResponsibility": "Manage time effectively to meet project deadlines and achieve goals while working remotely, by setting priorities, creating schedules, and using time-tracking tools.",
+    "JobDescription": "We are seeking an HR Coordinator to provide support to our HR department. The successful candidate will be responsible for recruiting, onboarding, and maintaining employee records.",
+    "JobResponsibility": "Manage time effectively to meet project deadlines and achieve goals while working remotely, by setting priorities, creating schedules, and using time-tracking tools.",
     "EducationalRequirements": "Bachelor's degree in Human Resources or related field",
     "Experience": "2+ years of experience in HR"
   },

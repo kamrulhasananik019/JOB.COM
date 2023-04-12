@@ -14,7 +14,7 @@ const FeaturedJobs = () => {
   };
 
   return (
-    <section>
+    <section className='md:container md:mx-auto cp-font'>
       <div className='text-center py-12'>
         <h1 className='text-4xl lg:text-5xl'>Featured Jobs</h1>
         <p className='text-md lg:text-2xl py-5'>

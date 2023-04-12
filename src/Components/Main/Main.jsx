@@ -2,14 +2,18 @@ import React from 'react';
 import Header from '../Header/Header';
 import '../Header/Header'
 import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 
 const Main = () => {
     return (
-        <div className='md:container md:mx-auto cp-font'>
+        <div>
             <Header></Header>
-           <Outlet></Outlet>
-       
+            <Outlet></Outlet>
+         <div className='bg-black '>
+         <Footer></Footer>
+         </div>
+
         </div>
     );
 };
