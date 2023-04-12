@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { addToDb, getShoppingCart } from '../LocalSt/LocalStorage';
-
+import '../Header/Header'
+import PageHeader from '../PageHeader/PageHeader';
 const CartView = () => {
     const { id } = useParams();
     const [job, setJob] = useState([]);
@@ -10,7 +11,7 @@ const CartView = () => {
     useEffect(() => {
         async function fetchData() {
             try {
-                const res = await fetch('../../../public/fake.json');
+                const res = await fetch('../fake.json');
                 const data = await res.json();
                 setJob(data);
             } catch (error) {
@@ -32,8 +33,7 @@ const CartView = () => {
             {details && (
                 <div>
                     <div>
-                        <h2 className='bg-indigo-400 text-center font-bold 
-                        py-52 page-title-style text-4xl'>Job Details</h2></div>
+                    <PageHeader title={'Job Description'}></PageHeader></div>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 m-10 gap-5'>
                         <div className='text-lg col-span-1 '>

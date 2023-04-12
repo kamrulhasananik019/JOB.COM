@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
+import lg from '../../assets/All Images/Vector-1.png'
 import { Button, Navbar } from "flowbite-react";
 import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
-     <section className="bg-violet-200 sticky top-0" >
-          <div className="mx-2 md:container md:mx-auto cp-font">
+     <section className=" sticky top-0" >
+          <div className="mx-2 md:container md:mx-auto cp-font sticky top-0">
           <Navbar className=" bg-violet-300" fluid={true} rounded={true}>
             <Navbar.Brand href="https://flowbite.com/%22%3E">
                 <span className="web-name-font self-center whitespace-nowrap text-xl font-semibold dark:text-white">
@@ -48,6 +49,7 @@ const Header = () => {
             </Navbar.Collapse>
         </Navbar>
           </div>
+    
      </section>
     );
 };

@@ -3,7 +3,8 @@ import { useLoaderData } from 'react-router-dom';
 import { getShoppingCart } from '../LocalSt/LocalStorage';
 import { Dropdown, Card, Button } from 'flowbite-react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
-
+import '../Header/Header'
+import PageHeader from '../PageHeader/PageHeader';
 const AppliedJobs = () => {
   const jobCart = useLoaderData();
   const savedJobs = getShoppingCart();
@@ -22,8 +23,7 @@ const AppliedJobs = () => {
   return (
     <section>
        <div>
-                        <h2 className='bg-indigo-400 text-center font-bold 
-                        py-52 page-title-style text-4xl'>Applied Jobs</h2></div>
+       <PageHeader title={'Applied Jobs'}></PageHeader></div>
 
       <div className='flex lg:justify-end relative lg:right-96 lg:top-11'>
         <Dropdown label="Filter">

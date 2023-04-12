@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../Header/Header'
 import {
     ComposedChart,
     Line,
@@ -12,6 +12,7 @@ import {
     Legend,
     ResponsiveContainer,
 } from 'recharts';
+import PageHeader from '../PageHeader/PageHeader';
 
 const data = [
 
@@ -28,9 +29,8 @@ const data = [
 const Statistics = () => {
     return (
         <div>
-             <div>
-                        <h2 className='bg-indigo-400 text-center font-bold 
-                        py-52 page-title-style text-4xl'>Statistics</h2></div>
+            <PageHeader title={'Statistics'}></PageHeader>
+            
             <div>
                 <ResponsiveContainer width="100%" height={400}>
                     <ComposedChart
