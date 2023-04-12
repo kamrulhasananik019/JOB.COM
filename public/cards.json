@@ -1,21 +1,21 @@
 [
      {
-          "Category_logo": "../src/assets/Icons/accounts 1.png",
+          "Category_logo":  "https://img.freepik.com/free-vector/gradient-quill-pen-design-template_23-2149837194.jpg?w=826&t=st=1681062975~exp=1681063575~hmac=291926edf3fda6c47ea89f59a12e572cd290c170afb0de862efaf7eb37e4bf52",
           "Category_name": "Account & Finance",
           "Jobs_available": "300+ Jobs Available"
      },
      {
-          "Category_logo": "../src/assets/Icons/business-1.png",
+          "Category_logo": "https://img.freepik.com/premium-vector/logo-with-ai-file_721332-2.jpg?w=826",
           "Category_name": "Creative Design",
           "Jobs_available": "500 Jobs Available"
      },
      {
-          "Category_logo": "../src/assets/Icons/social-media-1.png",
+          "Category_logo":  "https://img.freepik.com/free-vector/triangular-logo-template_1071-2.jpg?w=826&t=st=1681063211~exp=1681063811~hmac=80238ecc189305e32738ca409d02c928ed968398892ddfd668ad17f1120ed077",
           "Category_name": "Marketing & Sales",
           "Jobs_available": "100+ Jobs Available"
      },
      {
-          "Category_logo": "../src/assets/Icons/chip-1.png",
+          "Category_logo": "https://img.freepik.com/free-vector/flat-design-mm-logo-template_23-2149231119.jpg?w=826&t=st=1681063168~exp=1681063768~hmac=28183265f1e21cebe8f31e2f4ff6c822aa32c5fb3a088156d764402185a4a6d6",
           "Category_name": "Engineering Job",
           "Jobs_available": "424 Jobs Available"
      }

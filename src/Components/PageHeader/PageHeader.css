@@ -3,3 +3,8 @@
     font-family: 'Manrope', sans-serif;
     font-style: normal;
 }
+.header-background{
+    background-image: url(src/assets/Vector-1.png), url(src/assets/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right top , left bottom;
+}

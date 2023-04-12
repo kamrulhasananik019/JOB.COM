@@ -12,7 +12,7 @@ const Main = () => {
         { (path === '/') && <Header></Header>}
         <Outlet></Outlet>
         <div className='footer-custom-clr mt-6'>
-        <Footer></Footer>
+        <div className='bg-black'><Footer></Footer></div>
         </div>
         </div>
     );

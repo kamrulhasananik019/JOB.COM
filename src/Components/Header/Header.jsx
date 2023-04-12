@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import lg from '../../assets/All Images/Vector-1.png'
+
 import { Button, Navbar } from "flowbite-react";
 import { NavLink } from "react-router-dom";
 const Header = () => {
