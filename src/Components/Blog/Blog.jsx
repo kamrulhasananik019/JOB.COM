@@ -43,7 +43,7 @@ const Blog = () => {
             </div>
             <div className=' p-5 gap lg:px-32'>
                 <h1 className='text-3xl py-2'>what is useMemo and how its work ?</h1>
-                <p className='font-semibold py-2'>seMemo is a built-in React hook that 
+                <p className='font-semibold py-2'>useMemo is a built-in React hook that 
                     allows you to memoize the result of a function</p>
                 <h1 className='font-semibold py-2'> it is only recomputed when one of its dependencies changes. 
                     It can help optimize the performance of your React components by 
